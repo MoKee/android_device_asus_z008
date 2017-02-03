@@ -28,12 +28,12 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui
 
 # Boot image Signature
 PRODUCT_COPY_FILES += \
-    device/asus/Z008/keys/boot_z008.sig:install/bin/boot.sig
+    device/asus/z008/keys/boot_z008.sig:install/bin/boot.sig
 
 DEVICE_PACKAGE_OVERLAYS := \
-    device/asus/Z008/overlay
+    device/asus/z008/overlay
 
-$(call inherit-product-if-exists, vendor/asus/Z008/Z008-vendor.mk)
+$(call inherit-product-if-exists, vendor/asus/z008/z008.mk)
 
 # Inherit from mofd-common
 $(call inherit-product, device/asus/mofd-common/mofd.mk)
