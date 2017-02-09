@@ -18,7 +18,7 @@
 -include device/asus/mofd-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Z008 z008
+TARGET_OTA_ASSERT_DEVICE := Z008,z008
 
 # Charger
 BOARD_HEALTHD_CUSTOM_CHARGER_RES := device/asus/z008/charger/images
